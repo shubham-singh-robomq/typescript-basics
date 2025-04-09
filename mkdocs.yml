@@ -1,0 +1,57 @@
+site_name: TypeScript Basics Guide
+site_description: A comprehensive guide to TypeScript for beginners
+site_author: TypeScript Learning Team
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+repo_name: typescript-basics
+repo_url: https://github.com/yourusername/typescript-basics
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Installation: getting-started/installation.md
+    - First Program: getting-started/first-program.md
+  - TypeScript Basics:
+    - Types: basics/types.md
+    - Variables: basics/variables.md
+    - Functions: basics/functions.md
+  - Advanced Concepts:
+    - Classes: advanced/classes.md
+    - Interfaces: advanced/interfaces.md
+    - Generics: advanced/generics.md
+    - Modules: advanced/modules.md
+    - Advanced Types: advanced/advanced-types.md
+    - Decorators: advanced/decorators.md
+    - Configuration: advanced/configuration.md
+  - Best Practices:
+    - Type System: best-practices/type-system.md
+    - Code Organization: best-practices/code-organization.md
+    - Error Handling: best-practices/error-handling.md
+    - Performance Tips: best-practices/performance.md
+    - Security: best-practices/security.md
+    - Testing: best-practices/testing.md
