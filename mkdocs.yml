@@ -1,6 +1,6 @@
 site_name: TypeScript Basics Guide
 site_description: A comprehensive guide to TypeScript for beginners
-site_author: TypeScript Learning Team
+site_author: Shubham
 
 theme:
   name: material
@@ -27,7 +27,7 @@ theme:
         name: Switch to light mode
 
 repo_name: typescript-basics
-repo_url: https://github.com/yourusername/typescript-basics
+repo_url: https://github.com/shubham-singh-robomq/typescript-basics
 edit_uri: edit/main/docs/
 
 nav:
